@@ -44,7 +44,20 @@ The system demonstrates real-time adaptability. For the **same query** ("*soothi
 
 * **User A (Cold Start):** Recommends generally popular items (e.g., Neutrogena).
 * **User B (Loyal to 'TruSkin'):** Recognizes the affinity and boosts **TruSkin B3 Serum** to **Rank #1 (Score > 1.0)**, explicitly mentioning the user's preference in the generated response.
+---
+### 🚀 Demo & Evaluation Proofs
 
+**1. Live Demo(Personalization)**
+![Interactive Demo on a user query](images/interactive_demo.jpg)
+
+**2. Quantitative Results (Hit Rate & NDCG)**
+![Quantitative Evaluation Results showing Hybrid vs Vector metrics](images/quantitative_evaluation.jpg)
+
+**3. Qualitative Metrics (RAGAS Scores)**
+![Qualitative Evaluation Metrics (Faithfulness, Relevancy, Precision)](images/qualitative_evaluation.jpg)
+
+**4. Ranking Process**
+![case study demo](images/ranking_algorithm.jpg)
 ---
 
 ## Robust Engineering (Safe Mode)
