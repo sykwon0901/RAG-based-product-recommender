@@ -1,0 +1,9 @@
+openai
+langchain
+langchain_openai
+neo4j
+ragas
+pandas
+numpy
+tqdm
+datasets
