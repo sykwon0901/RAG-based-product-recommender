@@ -1,6 +1,6 @@
 # Hybrid GraphRAG: Personalized Skincare Recommendation Engine
 
-[![Open In Nbviewer](https://img.shields.io/badge/render-nbviewer-orange)](YOUR_NBVIEWER_LINK_HERE)
+[![Open In Nbviewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.org/github/sykwon0901/amazon-skincare-graphrag/tree/main/)
 [![Tech Stack](https://img.shields.io/badge/Stack-Neo4j%20|%20OpenAI%20|%20LangChain%20|%20Ragas-blue)]()
 
 > **Project Goal:** To overcome the limitations of traditional Vector Search by injecting **User Brand Loyalty signals (Knowledge Graph)** into the retrieval process, realizing a dynamic and context-aware recommendation system.
