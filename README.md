@@ -7,6 +7,8 @@
 ![RAGAS](https://img.shields.io/badge/RAGAS-6F42C1)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B)
 
+**Quick links:** [Run Streamlit](#run-streamlit) · [Key Results](#2-key-results)
+
 This repository demonstrates a **Hybrid RAG** approach for e-commerce recommendations, designed as a **dynamic alternative** to traditional recommenders (e.g., Collaborative Filtering) when you want:
 
 - **Semantic retrieval** for relevance (vector search)
@@ -63,8 +65,15 @@ The Hybrid RAG architecture outperforms the Vector Search baseline by combining 
 - **Ragas run success rate:** 100.0% (84/84)
 > Note: Metrics may vary across runs due to random sampling (unless a fixed seed/split is enforced).
 
-Demo Snapshot (Streamlit)
+### Demo Snapshot (Streamlit)
+
 <img src="images/streamlit.jpg" alt="Streamlit Demo" width="900">
+
+### Run Streamlit
+
+```bash
+pip install -r requirements.txt
+streamlit run app/streamlit_app.py
 
 Graph Snapshot (Neo4j Bloom)
 <img src="images/bloom_knowledge_graph.jpg" alt="Neo4j Bloom knowledge graph snapshot" width="900">
