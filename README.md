@@ -1,6 +1,7 @@
 # Hybrid RAG: Personalized Skincare Recommendation Engine
 
 [![Open In Nbviewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.org/github/sykwon0901/amazon-skincare-hybridrag/blob/main/notebooks/01_pipeline_demo.ipynb)
+![Tech Stack](https://img.shields.io/badge/Stack-Neo4j%20%7C%20OpenAI%20%7C%20LangChain%20%7C%20RAGAS%20%7C%20Streamlit-blue)
 
 This repository demonstrates a **Hybrid RAG** approach for e-commerce recommendations, designed as a **dynamic alternative** to traditional recommenders (e.g., Collaborative Filtering) when you want:
 
@@ -27,7 +28,9 @@ Build a Hybrid RAG architecture that **separates Retrieval from Personalization*
 
 ### Data & Stack
 - **Data:** Amazon Facial Skincare Reviews (subset of Amazon Reviews 2023; Hou et al.)
-- **Tech stack:** Neo4j (graph + native vector index), OpenAI (embeddings/LLM), LangChain, Ragas
+- **Tech stack:** Neo4j (graph + vector index), OpenAI (embeddings + LLM), LangChain, RAGAS, Streamlit
+- **Implementation:** Python, Jupyter Notebook
+
 
 ---
 
