@@ -1,11 +1,11 @@
 # Hybrid RAG: Personalized Skincare Recommendation Engine
 
 [![Open In Nbviewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.org/github/sykwon0901/amazon-skincare-hybridrag/blob/main/notebooks/01_pipeline_demo.ipynb)
-![Neo4j](https://img.shields.io/badge/Neo4j-graph%20%2B%20vector-008CC1)
-![OpenAI](https://img.shields.io/badge/OpenAI-embeddings%20%2B%20LLM-000000)
-![LangChain](https://img.shields.io/badge/LangChain-orchestration-2F855A)
-![RAGAS](https://img.shields.io/badge/RAGAS-evaluation-6F42C1)
-![Streamlit](https://img.shields.io/badge/Streamlit-demo-FF4B4B)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1)
+![OpenAI](https://img.shields.io/badge/OpenAI-000000)
+![LangChain](https://img.shields.io/badge/LangChain-2F855A)
+![RAGAS](https://img.shields.io/badge/RAGAS-6F42C1)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B)
 
 This repository demonstrates a **Hybrid RAG** approach for e-commerce recommendations, designed as a **dynamic alternative** to traditional recommenders (e.g., Collaborative Filtering) when you want:
 
