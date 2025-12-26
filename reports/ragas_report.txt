@@ -1,0 +1,17 @@
+========================================
+RAGAS EVALUATION REPORT
+========================================
+Note: Results may vary across runs due to random sampling and API stochasticity.
+
+
+[System] Detected Columns: ['user_input', 'retrieved_contexts', 'response', 'reference', 'faithfulness', 'answer_relevancy', 'context_precision']
+
+[Data Status]
+- Total Sample Count: 84
+- Analyzable Sample Count: 84 (Success Rate: 100.0%)
+- Missing/Failed Sample Count: 0
+
+[Final Performance Evaluation Results (Mean)]
+- faithfulness: 0.7619
+- answer_relevancy: 0.8187
+- context_precision: 0.2560

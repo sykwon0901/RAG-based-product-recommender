@@ -1,0 +1,46 @@
+cat > .gitignore <<'EOF'
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*Zone.Identifier*
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Coverage / tests
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data & archives (exclude large/local files)
+data/**
+!data/README.txt
+!data/.gitkeep
+
+archive/**
+EOF

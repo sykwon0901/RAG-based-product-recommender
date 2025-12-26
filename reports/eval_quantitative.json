@@ -1,0 +1,10 @@
+{
+  "sample_size": 50,
+  "top_k": 10,
+  "avg_vector_hit_rate_at_10": 21.50537634408602,
+  "avg_vector_ndcg_at_10": 14.638348470295817,
+  "avg_hybrid_hit_rate_at_10": 41.935483870967744,
+  "avg_hybrid_ndcg_at_10": 30.917154444498486,
+  "improvement_hit_rate_pp": 20.430107526881724,
+  "improvement_ndcg_pp": 16.27880597420267
+}

@@ -1,9 +1,19 @@
-openai
-langchain
-langchain_openai
-neo4j
-ragas
-pandas
-numpy
-tqdm
-datasets
+# Core
+python-dotenv>=1.0.0
+neo4j>=5.20.0,<6
+openai>=1.30.0,<2
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.66.0
+
+# RAG / Evaluation
+langchain>=0.2.0,<0.4
+langchain-openai>=0.1.0,<0.3
+ragas>=0.1.0
+
+# Data
+datasets>=2.18.0
+openpyxl>=3.1.0
+
+# Demo
+streamlit>=1.30.0
