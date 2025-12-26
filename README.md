@@ -1,7 +1,6 @@
-# Hybrid GraphRAG: Personalized Skincare Recommendation Engine
+# Hybrid RAG: Personalized Skincare Recommendation Engine
 
-[![Open In Nbviewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.org/github/sykwon0901/amazon-skincare-graphrag/tree/main/)
-[![Tech Stack](https://img.shields.io/badge/Stack-Neo4j%20|%20OpenAI%20|%20LangChain%20|%20Ragas-blue)]()
+[![Open In Nbviewer](https://img.shields.io/badge/render-nbviewer-orange)](https://nbviewer.org/github/sykwon0901/amazon-skincare-hybridrag/blob/main/notebooks/01_pipeline_demo.ipynb)
 
 This repository demonstrates a **Hybrid RAG** approach for e-commerce recommendations, designed as a **dynamic alternative** to traditional recommenders (e.g., Collaborative Filtering) when you want:
 
@@ -56,6 +55,7 @@ The Hybrid RAG architecture outperforms the Vector Search baseline by combining 
 - **Context Precision:** 0.2560
 - **Ragas run success rate:** 100.0% (84/84)
 > Note: Metrics may vary across runs due to random sampling (unless a fixed seed/split is enforced).
+![Streamlit Demo](images/streamlit.jpg)
 ---
 
 ## 3) Why This Matters for AI Transformation Teams
