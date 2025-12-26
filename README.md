@@ -66,7 +66,13 @@ The Hybrid RAG architecture outperforms the Vector Search baseline by combining 
 > Note: Metrics may vary across runs due to random sampling (unless a fixed seed/split is enforced).
 
 ### Demo Snapshot (Streamlit)
+
 <img src="images/streamlit.jpg" alt="Streamlit Demo" width="900">
+
+### Graph Snapshot (Neo4j Bloom)
+
+<img src="images/bloom_knowledge_graph.jpg" alt="Neo4j Bloom knowledge graph snapshot" width="900">
+
 
 
 ## 3) Why This Matters for AI Transformation Teams
