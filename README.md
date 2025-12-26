@@ -7,7 +7,7 @@
 ![RAGAS](https://img.shields.io/badge/RAGAS-6F42C1)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B)
 
-**Quick links:** [Run Streamlit](#run-streamlit) · [Key Results](#2-key-results)
+**Quick links:** [Key Results](#2-key-results)
 
 This repository demonstrates a **Hybrid RAG** approach for e-commerce recommendations, designed as a **dynamic alternative** to traditional recommenders (e.g., Collaborative Filtering) when you want:
 
